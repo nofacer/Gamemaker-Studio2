@@ -10,7 +10,7 @@ if (place_meeting(x+hsp,y,oWall))
 	{
 			x += sign(hsp)
 	}
-	hsp=0;
+	hsp=-hsp;
 }
 x += hsp;
 
